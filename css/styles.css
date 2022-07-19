@@ -10,6 +10,8 @@ body{
 }
 
 .profile {
+    margin-top: 2%;
+    margin-left: 5%;
     padding: 20px;
     color: #837E9F;
     background-color: #302F3D;
@@ -35,6 +37,7 @@ body{
 
 .profile .avatar img{
     border: solid;
+    border-width: 2px;
     border-color:  #00FF00;
     border-radius: 50%;
 }
@@ -43,3 +46,104 @@ body{
     height: auto;
 }
 
+.infos {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 20px;
+    color: #837E9F;
+    background-color: #302F3D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    align-content: space-between;
+}
+
+.content{
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.content-tech {
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: center;
+}
+
+
+i{
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.techs {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 20px;
+    color: #837E9F;
+    background-color: #302F3D;
+    border-radius: 20px;
+    display: flex;
+    align-content: space-between;
+    min-width: 260px;
+    max-width: 320px;
+    min-height: auto;
+}
+/* button */
+
+.button-18 {
+  align-items: center;
+  background-color: #00FF00;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 260px;
+  min-height: 35px;
+  min-width: 10px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #4dff4d;
+  color: #000000;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
