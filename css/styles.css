@@ -2,4 +2,44 @@
     padding: 0;
     margin: 0;
     font-family:sans-serif;
+
 }
+
+body{
+    background-color: #22212C;
+}
+
+.profile {
+    padding: 20px;
+    color: #837E9F;
+    background-color: #302F3D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    box-shadow: pink ;
+}
+
+.profile h2{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.profile p{
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.profile .avatar img{
+    border: solid;
+    border-color:  #00FF00;
+    border-radius: 50%;
+}
+.avatar img{
+    width: 120px;
+    height: auto;
+}
+
