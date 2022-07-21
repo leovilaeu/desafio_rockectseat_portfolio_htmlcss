@@ -7,21 +7,29 @@
 
 body{
     background-color: #22212C;
+    max-width: fit-content;
 }
 
 .container-wrap {
     display: flex;
-    margin-top: 2%;
-    margin-left: 5%;
-    padding: 20px;   
+    padding: 50px;   
+    align-items: flex-start; 
+    justify-content: center;
 }
 
 #coluna1{
     display: flex;
-    flex-direction: column;
-    margin-top: 2%;
+    flex-flow: column wrap;
     margin-left: 5%;
-    padding: 20px;
+    padding: 15px;
+}
+
+#coluna2{
+    display: flex;
+    flex-flow:wrap;
+    padding: 15px;
+    max-width: 100vh;
+
 }
 
 .profile {
@@ -37,12 +45,10 @@ body{
 }
 
 .profile h2{
-    margin-top: 2px;
     margin-bottom: 5px;
 }
 
 .profile p{
-    margin-top: 2px;
     margin-bottom: 8px;
 }
 
@@ -71,9 +77,9 @@ body{
 }
 
 .content{
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     display: flex;
-    margin-left: 10%;
+    margin-left: 18px;
 }
 
 .content-tech {
@@ -103,14 +109,45 @@ i{
     color: #837E9F;
     background-color: #302F3D;
     border-radius: 20px;
-
     display: flex;
-    flex-basis: auto;
-    align-items: center;
+    width: 100vh;
+    padding: 20px;
     justify-content: space-between;
-    
-    margin-top: 60px;
-    padding: 3% 3% 3%;
-    width: 1200px;
-    max-width: 1500px;
+    align-items: center;
+
 }
+
+.project01 {
+    color: #837E9F;
+    background-color: #302F3D;
+    border-radius: 20px;
+    max-width: 430px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.project02 {
+    color: #837E9F;
+    background-color: #302F3D;
+    border-radius: 20px;
+    max-width: 430px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.project01 p {
+    text-align: justify;
+
+}
+
+.title{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.interactions{
+    display: flex;
+    margin-top: 25px;
+}
+
